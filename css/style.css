@@ -1,0 +1,446 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap');
+
+
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: rgb(238, 245, 221);
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Logo */
+.logo {
+    padding: 10px 0px 0px 15px;
+    width: 70px;
+    top: 24px;
+    left: 15px;
+    position: fixed;
+    z-index: 10;
+    background: none;
+}
+
+.work-btn {
+    top: 26px;
+    right: 25px;
+    position: fixed;
+    z-index: 10; 
+}
+
+.about-btn {
+    top: 36px;
+    right: 160px;
+    position: fixed;
+    z-index: 10;
+    background: none;  
+}
+
+.contact-btn {
+    top: 36px;
+    right: 250px;
+    position: fixed;
+    z-index: 10;  
+    background: none;
+}
+
+.resume {
+    bottom: 40px;
+    right: 25px;
+    position: fixed;
+    z-index: 10;
+    background: none;
+}
+
+.socials {
+    bottom: 40px;
+    left: 35px;
+    position: fixed;
+    z-index: 10;
+    scale: 100%;
+    scale: 75%;
+    background: none;
+}
+
+/* Navigation links */
+li, a, button {
+    font-family: Syne, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    justify-content: right;
+    
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 10px 10px;
+}
+
+/* Navigation links list */
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display:inline-block; 
+    padding: 8px 10px 50px;
+}
+
+.nav_links li a {
+    transition: all .3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #6db427
+}
+
+
+/* Hero section container */
+
+.rescircle {
+    position: absolute;
+    width: 60%;
+    border-radius: 50%;
+    background: #C5EC56;
+    top: -30%;
+    right: 43.5%;
+    z-index:1;
+  }
+  .rescircle:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+h1 { 
+    font-family: Syne, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2000%;
+    text-align: center;
+    margin-top: 20vh;
+    position: relative;
+    background: none;
+    z-index: 10;
+}
+
+.name {
+    z-index: 10;
+}
+
+h2 {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    width: 250px;
+    margin-right: 2%;
+    background: none;
+    z-index: 10;
+}
+
+.background {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 11%;
+    z-index: 10;
+}
+
+.prg1 {
+    width: 100%;
+    transition: .8s;
+    background: none;
+    z-index: 9;
+}
+
+.prg1:hover {
+    scale: 108%;
+    background: none;
+}
+
+.intro {
+    font-size: 20px;
+    width: 410px;
+    line-height: 30px;
+    z-index: 4;
+    background: none;
+    margin-right: 10%;
+}
+
+.work {
+    padding-top: 4%;
+}
+
+h3, h4 {
+    font-family: Syne, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+/* Call-to-action button */
+
+.work-btn, .resume, button {
+    padding: 8px 20px 10px 20px;
+    margin: 8px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(238, 245, 221);
+    border: none;
+    border-radius: 13px; 
+    cursor: pointer;
+    transition: all .1s ease 0s;
+    justify-items: 30px;
+    height: 35px;
+}
+
+button:hover, .work-btn:hover {
+    border-radius: 9px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color:transparent;
+    color: black;
+    
+}
+
+/* Resume link */
+
+.container, .container-2 {
+    margin: 3% 8% 3% 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 80px 50px;
+    align-items: right;
+}
+
+.box{
+    grid-row: span 2;  
+    width: 100%;
+    height: 350px;
+    background: rgb(221, 216, 216);
+    transition: 1.5;
+}
+
+.box, .box-2 {
+    font-family: Syne, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 350px;
+    color:rgb(238, 245, 221);
+    position: relative;
+    margin-bottom: 1px;
+    border-radius: 10px;
+}
+
+.description {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color:rgba(58, 56, 56, 0.8);
+    opacity: 0;
+}
+
+.description:hover {
+    opacity: 1;
+}
+
+.box-2 {
+    grid-row: span 2;
+    width: 100%;
+    height: 350px;
+    background: rgb(221, 216, 216); 
+    transition: 1.5;
+}
+.box:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+}
+
+.box-2:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+}
+
+/* Mobile Style */
+@media only screen and (max-width: 1440px) {
+    .hero {
+        scale: 90%
+    }
+
+    .rescircle {
+        position: absolute;
+        width: 80%;
+        border-radius: 50%;
+        background: #C5EC56;
+        top: -700px;
+        right: 37%;
+        z-index:1;
+      }
+
+      .intro {
+        font-size: 20px;
+        width: 45vh;
+        line-height: 27px;
+        z-index: 4;
+        background: none;
+    }
+
+    .background {
+        margin-bottom: 1%;
+    }
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+    .work-btn, .resume, .contact-btn, .about-btn{
+        scale: 80%;
+    }
+
+    .logo, .socials {
+        scale: 77%;
+    }
+
+    .contact-btn {
+        top: 36px;
+        right: 210px;
+        position: fixed;
+        z-index: 10;  
+        background: none;
+    }
+
+    .about-btn {
+        top: 36px;
+        right: 137px;
+        position: fixed;
+        z-index: 10;  
+        background: none;
+    }
+
+    h1 {
+        font-size:calc(102px + 1.5vw);
+    }
+
+    .background {
+        margin-top: 5%;
+    }
+
+    .intro {
+        width: 600px;
+    }
+
+    .work {
+        margin-top: 15%;
+    }
+
+    h3 {
+        margin-bottom: -5%;
+    }
+    .grid { 
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container, .container-2{ 
+        grid-template-rows: 1fr, 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin: 10% 8% 20% 8%;
+    }
+
+    .background {
+        margin-bottom: 1%;
+    }
+    
+    .logo {
+        width: 65px;
+        height: auto;
+    }
+}
+
+/* Mobile Style */
+
+@media only screen and (max-width: 600px) {
+    
+    .hero {
+        scale: none;
+    }
+
+    h1 { 
+        display: none;
+    }
+
+    .rescircle {
+        position: absolute;
+        width: 130%;
+        border-radius: 50%;
+        background: #C5EC56;
+        top: -150px;
+        right: 6.5%;
+        z-index:1;
+      }
+
+      .rescircle:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+      }
+
+    .background {
+        display:grid;
+        margin-left: 10%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        z-index: 10;
+    }
+
+    h2 {
+        font-family: Syne, Arial;
+        font-size: 70px;
+        font-style: bold;
+        margin-bottom: 15%;
+        line-height: 60px;
+    }
+
+    .intro {
+        font-size: 16px;
+        width: 30vh;
+        line-height: 25px;
+        z-index: 4;
+        background: none;
+    }
+
+    .grid { 
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container, .container-2{ 
+        grid-template-rows: 1fr, 1fr, 1fr;
+        grid-template-columns: 1fr;
+        margin: 10% 8% 20% 8%;
+
+    }
+    
+}
