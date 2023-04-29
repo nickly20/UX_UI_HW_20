@@ -176,7 +176,6 @@ h2 {
     line-height: 30px;
     z-index: 4;
     background: none;
-    margin-right: 10%;
 }
 
 .work {
@@ -327,9 +326,8 @@ h4 {
         left: 15px;
     }
 
-    .work {
-        padding-top: 25%;
-    }
+    
+
 }
 /* Call-to-action button */
 
@@ -426,8 +424,25 @@ h4 {
 
 /* Mobile Style */
 @media only screen and (max-width: 1440px) {
+
     .hero {
         scale: 90%
+    }
+
+    h2 {
+        margin-bottom: 3%;
+        width: fit-content;
+        text-align: center;
+        margin-right: -2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background{
+        display: flex;
+        flex-direction: column;
+        margin: 8%;
+        
     }
 
     .rescircle {
@@ -435,17 +450,18 @@ h4 {
         width: 80%;
         border-radius: 50%;
         background: #C5EC56;
-        top: -700px;
-        right: 37%;
+        top: -400px;
+        right: 11%;
         z-index:1;
       }
 
       .intro {
         font-size: 20px;
-        width: 45vh;
         line-height: 27px;
         z-index: 4;
         background: none;
+        width: fit-content;
+        text-align: center;
     }
 
     .background {
@@ -480,6 +496,14 @@ h4 {
         background: none;
     }
 
+    h2 {
+        margin-bottom: 3%;
+        width: fit-content;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     h1 {
         font-size:calc(102px + 1.5vw);
     }
@@ -489,7 +513,8 @@ h4 {
     }
 
     .intro {
-        width: 600px;
+        width: fit-content;
+        text-align: center;
     }
 
     .work {
@@ -538,7 +563,7 @@ h4 {
         border-radius: 50%;
         background: #C5EC56;
         top: -150px;
-        right: 6.5%;
+        right: 15%;
         z-index:1;
       }
 
@@ -552,7 +577,7 @@ h4 {
         display:grid;
         margin-left: 10%;
         margin-top: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
         z-index: 10;
     }
 
@@ -560,16 +585,22 @@ h4 {
         font-family: Syne, Arial;
         font-size: 70px;
         font-style: bold;
-        margin-bottom: 15%;
+        margin-bottom: 20%;
         line-height: 60px;
+        width: 57%;
+        text-align: left;
+        margin-left: -1%;
     }
 
     .intro {
         font-size: 16px;
-        width: 30vh;
+        width: 40vh;
         line-height: 25px;
         z-index: 4;
         background: none;
+        text-align: left;
+        margin-bottom: 20%;
+        padding-right: 31%;
     }
 
     .grid { 
