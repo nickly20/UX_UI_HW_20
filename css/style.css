@@ -506,6 +506,7 @@ h4 {
 
     h1 {
         font-size:calc(102px + 1.5vw);
+        margin-top: 10%;
     }
 
     .background {
@@ -576,7 +577,7 @@ h4 {
     .background {
         display:grid;
         margin-left: 10%;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-bottom: 15%;
         z-index: 10;
     }
