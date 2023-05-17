@@ -468,6 +468,12 @@ h4 {
         margin-bottom: 1%;
     }
 
+    .intro {
+        max-width: 450px;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 1240px) {
