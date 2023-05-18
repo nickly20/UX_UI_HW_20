@@ -8,7 +8,6 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    background-color: rgb(238, 245, 221);
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
@@ -299,8 +298,7 @@ body {
 .case {
     font-family: Syne, Arial, Helvetica, sans-serif;
     font-size: 145px;
-    color:#000000;
-    opacity: .3;
+    color:#d0d8cb;
 }
 
 .title {
@@ -315,7 +313,8 @@ body {
 .container-11, .container-12, .container-13, .container-14, 
 .container-15, .container-16, .container-17, .container-18, 
 .container-19, .container-20, .container-21, .container-22, 
-.container-23, .container-24, .container-25, .container-26 {
+.container-23, .container-23-2, .container-24, .container-25, 
+.container-26, .desktop-inter{
     max-width: 70rem;
     margin: 0% 25% 1% 10%;
 }
@@ -417,9 +416,6 @@ li {
     margin-top: 6%;
 }
 
-.row {
-}
-
 .image-5 {
     display: block;
     margin-left: auto;
@@ -475,7 +471,7 @@ li {
 
 .lorem {
     margin-top: 5%;
-    background-color: #e5e7f0;
+    background-color: #E2EADC;
     padding: 3%;
     border-radius: 15px;
 }
@@ -487,6 +483,143 @@ li {
     width: 100%;
     margin-top: 3%; 
     margin-bottom: 3%;
+}
+
+.mid-proto-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 5%;
+}
+
+.image-14, .image-15, .image-16 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 3%; 
+    margin-bottom: 3%;
+    padding: 1%; 
+}
+
+.image-17, .image-18, .image-19 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 3%; 
+    margin-bottom: 3%;
+    padding: 1%; 
+}
+
+.mid-hi-proto-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 5%; 
+}
+
+.image-20 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 3%; 
+    margin-bottom: 3%;
+    padding: 1%;  
+}
+
+.hifi-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 5%;  
+}
+
+.image-23 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 105%;
+    margin-top: 3%; 
+    margin-bottom: 3%;
+    padding: 5%; 
+}
+
+.image-22 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    margin-top: 3%; 
+    margin-bottom: 5%;
+    padding-right: 50px; 
+    min-width: 200px;
+}
+
+.desktop-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1%; 
+}
+
+.image-21 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5%; 
+} 
+
+.image-25 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-right: 55%; 
+    background-color: none;
+    background: none;
+}
+.container {
+    border: 2px;
+    border-color: #E2EADC;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+.container ul, li {
+    background-color: #E2EADC;
+}
+.col {
+    margin: 1%;
+    padding: 2%;
+    background-color: #E2EADC;
+    border-radius: 20px;
+}
+
+.feat, li {
+    background: 0;
+}
+
+span {
+    font-weight: 500 ;
+}
+
+.persona-img {
+    display: block;
+    margin-left: auto;
+    margin-right: 50%;
+    width: 80%; 
+    margin-top: 3%;
+    min-width: 600px;
+}
+
+.container-24 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6%;  
+}
+
+.container-26 {
+    margin-bottom: 10%
 }
 /* Mobile Style */
 @media only screen and (max-width: 1440px) {
