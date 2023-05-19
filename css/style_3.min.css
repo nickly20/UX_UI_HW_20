@@ -336,9 +336,14 @@ body {
     font-weight: 400;
 }
 
+.intro {
+    height: 300px;
+    padding-top: .1%;
+}
+
 h1 {
     margin-bottom: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 h2 {
@@ -368,7 +373,6 @@ li {
 .container-5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 3%;
 }
 
 .r-nasa {
