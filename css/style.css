@@ -165,6 +165,10 @@ h2 {
     z-index: 9;
 }
 
+.prg1, p {
+    padding-top: 3%;
+}
+
 .prg1:hover {
     scale: 108%;
     background: none;
@@ -188,6 +192,7 @@ h3 {
     margin-left: 8%;
     margin-bottom: 2%;
 }
+
 .contained {
     top: 35px;
     right: 40px;
@@ -196,6 +201,7 @@ h3 {
     background-color: none;  
     background: none;
 }
+
 .hamburger { 
     position: relative;
     display: block;

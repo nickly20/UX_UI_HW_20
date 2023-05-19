@@ -276,7 +276,7 @@ h1 {
 }
 
 .hero-container {
-    margin: 4% 6% 0% 6%;
+    margin: 0% 6% 0% 6%;
     display: flex;
     grid-gap: 80px 50px;
     justify-content: center;
@@ -288,7 +288,7 @@ h1 {
 .contain {
     display: flex;
     justify-content: center;
-    margin: 0 10% 0% 10%
+    margin: 0 10% 0% 10%;
   }
   
   .column {
